@@ -2,8 +2,36 @@
     background-color: blue;
 } */
 
-/* h1{
-    background-color: blue;
-    text-align: center;
-    text-decoration: underline;
-} */
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.one {
+  background-color: black;
+  color: white;
+}
+.two {
+  background-color: blue;
+  color: black;
+}
+.three {
+  font-size: 60px;
+}
+.four {
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+}
+a:hover {
+  color: blue;
+  font-size: 40px;
+}
+.routes {
+  background-color: black;
+  border-radius: 50px;
+}

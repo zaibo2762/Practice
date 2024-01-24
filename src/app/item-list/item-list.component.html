@@ -1,16 +1,16 @@
-<!-- <h2>Here Is Items</h2>
+<h2>Here Is Items</h2>
 <button (click)="showitems = true">Show Items</button>
 <div>
     @for (item of items; track i;let i = $index) {
-        @defer(when showitems)  {
-            <app-item [id]="i+1"/> <br/>
-        }@placeholder {
-            <div class="placeholder"></div>
-        }@loading {
-            <div class="placeholder">Loading</div>
-        }@error {
-            <div class="error">error...</div>
-        }
-        
+    @defer(when showitems) {
+    <app-item [id]="i+1" /> <br />
+    }@placeholder {
+    <div class="placeholder"></div>
+    }@loading {
+    <div class="placeholder">Loading</div>
+    }@error {
+    <div class="error">error...</div>
     }
-</div> -->
+
+    }
+</div>
